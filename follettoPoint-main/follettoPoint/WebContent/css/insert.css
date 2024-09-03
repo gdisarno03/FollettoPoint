@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    
+}
+
+.Cont{
+	
+	height: 1000px;
+	width: 65%;
+	margin: auto;
+	margin-top:85px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 70px;
+	border: 1px solid #1E1E1E;
+	background: #A0FFC1;
+	margin-bottom: 40px;
+}
+
+::placeholder{
+	font-size:20px;
+	color: #5c5c5c;
+	text-align:center;
+	
+}
+
+form{
+	
+	display: flex;
+    align-items: center;
+    width: 90%;
+    flex-direction: column;
+}
+
+.title{
+	
+	margin-top: -50px;
+	color: #1E1E1E;
+
+	font-size: 48px;
+	font-style: italic;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 7.2px;
+}
+
+select{
+	
+	border-radius: 25px;
+	background: #A0FFC1;
+	
+	cursor: pointer;
+	font-size: 25px;
+	text-align: center;
+}
+
+form input[type="submit"], input[type="reset"]{
+	margin: 10px 0px;
+	cursor: pointer;
+	width: 30%;
+	height: 30px;
+	border-radius: 21px;
+	background: #20A15C;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+	
+	color: #FFF;
+	
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+form input[type="text"],input[type="number"], input[type="textarea"], input[type="password"], textarea{
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 21px;
+	width: 80%;
+	height: 66px;
+	background: #FFF;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	
+}
+
+
+
+
+@media screen and (max-width: 1000px){
+	
+	
+	.title{
+		position: relative;
+		text-align: center;
+		margin-bottom: 10px;
+		font-size: 20px;
+	}
+	
+
+}

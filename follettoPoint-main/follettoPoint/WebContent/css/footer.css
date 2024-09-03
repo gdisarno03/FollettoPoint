@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+   
+   footer {
+   
+      padding: 50px 0px;
+      width: 100%;
+      
+      text-align: center;
+      background-color: #333;
+      color: white;
+      
+   }
+   
+   .contatti {
+      display: inline-block;
+   }
+   
+   .servizi {
+      display: inline-block;
+      margin-left: 20px;
+   }
+   
+   .servizi a, .servizi a:link, .servizi a:active, .servizi a:visited{
+   	color: #00ff00;
+   
+   }
+   
+   .servizi a:hover{
+   	font-weight: bold;
+   }

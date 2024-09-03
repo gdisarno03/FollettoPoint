@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>follettoPoint</display-name>
+  <welcome-file-list>
+    <welcome-file>HomeView.jsp</welcome-file>
+  </welcome-file-list>
+  
+ 
+  <resource-ref>
+    <description>JNDI reference to a data source</description>
+    <res-ref-name>jdbc/storage</res-ref-name>
+    <res-type>javax.sql.DataSource</res-type>
+    <res-auth>Container</res-auth>
+  </resource-ref>
+  
+  <servlet>
+    <servlet-name>HomeControl</servlet-name>
+    <servlet-class>control.HomeControl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>HomeControl</servlet-name>
+    <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>OrderDetailControl</servlet-name>
+    <servlet-class>control.OrderDetailControl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>OrderDetailControl</servlet-name>
+    <url-pattern>/orderdetail</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ProductControl</servlet-name>
+    <servlet-class>control.ProductControl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>ProductControl</servlet-name>
+    <url-pattern>/product</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>CartControl</servlet-name>
+    <servlet-class>control.CartControl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>CartControl</servlet-name>
+    <url-pattern>/cart</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DetailControl</servlet-name>
+    <servlet-class>control.DetailControl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>DetailControl</servlet-name>
+    <url-pattern>/detail</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>InsertControl</servlet-name>
+    <servlet-class>control.InsertControl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>InsertControl</servlet-name>
+    <url-pattern>/insert</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>OrderControl</servlet-name>
+    <servlet-class>control.OrderControl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>OrderControl</servlet-name>
+    <url-pattern>/orders</url-pattern>
+  </servlet-mapping>
+  
+  <error-page>
+  	<location>/error.jsp</location>
+  </error-page>
+  
+  <error-page>
+    <exception-type>java.lang.Throwable</exception-type>
+    <location>/error.jsp</location>
+</error-page>
+    
+</web-app>

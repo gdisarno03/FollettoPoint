@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+	margin-left: 5%;
+	margin-bottom: 12px;
+}
+
+h1{
+	text-align: center;
+}
+
+
+
+.titleCat{
+	margin-top: 1%;
+	width: 22%;
+	color: #FFF;
+	margin-left: -2%;
+	padding-left: 5%;
+	font-size: 320%;
+	font-style: italic;
+	font-weight: 800;
+	line-height: normal;
+	border-radius: 16px;
+	background: #20A15C;
+}
+
+
+
+table{
+	border-spacing:0;
+	text-align: center;
+	height: 100px;
+	width: 90%;
+	margin: auto;
+	border: 3px solid #20A15C;
+	
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+a, a:link, a:active, a:visited{
+	color: #008000;
+}
+
+a:hover{
+	font-weight: bold;
+}
+
+th{
+	background-color: #20A15C;
+	height: 127px;
+	border: none;
+	color: #272D28;
+	text-align: center;
+
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+
+
+td img{
+	
+	width: 100%;
+	
+}
+
+td{
+	color: #1E1E1E;
+	height: 220px;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 600;
+	line-height: normal;
+	
+	padding: 0;
+	width: 11%;
+}
+
+
+
+form{
+	display: flex;
+	justify-content: center;
+	vertical-align: middle;
+	
+}
+
+form button[type="submit"]{
+	cursor: pointer;
+	margin: 0px 7px;
+	width: 30px;
+	height: 30px;
+	border-radius: 40px;
+	border: none;
+background: #A0FFC1;
+}
+
+form p{
+	padding: 5px;
+}
+
+label{
+	margin-left: 5%;
+	color: #20A15C;
+	font-weight: bold;
+}
+
+.adminFunc:link, .adminFunc:active, .adminFunc:visited{
+	float: right;
+	
+	padding: 12px;
+	color: #272D28;
+	
+	
+	font-style: italic;
+	font-weight: 800;
+	background-color: #A0FFC1;
+	border-radius: 25px;
+	border: 1px solid #272D28;
+}
+
+.filter, #dataInizio, #dataFine{
+padding: 12px;
+	color: #272D28;
+	
+	
+	font-style: italic;
+	font-weight: 800;
+	background-color: #A0FFC1;
+	border-radius: 25px;
+	border: 1px solid #272D28;	
+}
+
+.logout:link, .logout:active, .logout:visited{
+	float: right;
+	margin-left:15px;
+	margin-right:30px;
+	padding: 12px;
+	color: white;
+	
+	
+	font-style: italic;
+	font-weight: 800;
+	background-color: black;
+	border-radius: 25px;
+	border: 1px solid #272D28;
+}
+
+.dashboard{
+	margin: 50px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	
+}
+
+.dashboard p{
+	
+    
+    
+    border: none;
+    color: #272D28;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@media screen and (max-width: 1000px){
+h3{
+		    margin-left: 30px;
+    text-align: center;
+    margin-top: 56px;
+    font-size: medium;
+	}
+	
+	td{
+		
+		font-size: 7px;
+		padding: 2px;
+	}
+	
+	table{
+		width: 90%;
+		font-size: 8px;
+		 
+	}
+	
+
+	
+	th{
+		padding: 5px;
+		font-size: 10px;
+	}
+	
+    .titleCat{
+    	width: 30%;
+    	font-size: 20px;
+    }
+	.adminFunc:link, .adminFunc:active, .adminFunc:visited{
+		color: #272D28;
+		font-style: italic;
+		padding: 6px;
+		background-color: #A0FFC1;
+		border-radius: 25px;
+		border: 1px solid #272D28;
+	}
+	
+	label{
+		margin-left: 0;
+		font-size: 16px;
+	}
+	
+	.filter, #dataInizio, #dataFine{
+	padding: 6px;
+	color: #272D28;
+	width: 20%;
+	
+	font-style: italic;
+	font-weight: 800;
+	background-color: #A0FFC1;
+	border-radius: 25px;
+	border: 1px solid #272D28;	
+}
+}

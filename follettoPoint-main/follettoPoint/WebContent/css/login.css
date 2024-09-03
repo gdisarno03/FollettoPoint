@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    
+}
+
+#loginCont{
+	
+	height: 500px;
+	width: 56%;
+	margin: auto;
+	margin-top:85px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 70px;
+	border: 1px solid #1E1E1E;
+	background: #A0FFC1;
+	margin-bottom: 40px;
+}
+
+
+
+
+#password{
+	margin-top: 42px;
+}
+
+#username, #password{
+	height: 66px;
+	width: 72%;
+	border-radius: 21px;
+	background: #FFF;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#loginCont a, #loginCont a:visited{
+	
+	color: #272D28;
+	font-size: 18px;
+	
+	font-weight: 600;
+	line-height: normal;
+	
+}
+
+#loginCont a:hover{
+	font-style: bold;
+}
+
+#loginCont img{
+	position: relative;
+	top: -70px;
+	height: 139px;
+	width: 139px;
+}
+
+#loginCont input[type="submit"]{
+	margin: 30px 0px;
+	cursor: pointer;
+	width: 30%;
+	height: 55px;
+	border-radius: 21px;
+	background: #20A15C;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+	
+	color: #FFF;
+
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}

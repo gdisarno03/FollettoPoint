@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    
+}
+
+.title{
+	
+	margin-top: -40px;
+	color: #1E1E1E;
+	text-align:center;
+	font-size: 48px;
+	font-style: italic;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 7.2px;
+}
+
+.registerCont{
+	
+	height: 700px;
+	width: 85%;
+	margin: auto;
+	margin-top:85px;
+	display: flex;
+	flex-direction: column;
+	
+	border-radius: 70px;
+	border: 1px solid #1E1E1E;
+	background: #A0FFC1;
+	margin-bottom: 40px;
+}
+
+
+
+.registerColumnItem{
+	margin-top: 60px;
+	border-radius: 21px;
+	width: 74%;
+	height: 66px;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.registerButton{
+	margin: 30px 0px;
+	cursor: pointer;
+	width: 30%;
+	height: 55px;
+	border-radius: 21px;
+	background: #20A15C;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+	
+	color: #FFF;
+
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+
+.registerField{
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.registerColumn{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+}
+
+.buttonDash{
+	margin-top: 70px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1000px){
+	#checkEmailButton{
+		font-size: 10px;
+	}	
+	
+	.title{
+	position: relative;
+		top: 20px;
+		font-size: 20px;
+	}
+	
+	.registerCont{
+		height: 400px; 
+	}
+	
+	.registerColumnItem{
+		height: 40px;
+	}
+	
+	.buttonDash{
+	margin-top: 0px;
+	display: flex;
+	justify-content: space-evenly;
+}
+}

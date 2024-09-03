@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.product-section{
+	
+	padding: 100px 50px;
+	
+}
+
+.product{
+	
+	box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.35);
+	display: inline-block;
+	width: 28%;
+	height: 541px;
+	
+	margin-right: 50px;
+	margin-bottom: 50px;
+	transition: transform 1s ease;
+	border-radius: 10px;
+    
+    
+    z-index: 2
+}
+
+.product .imgProd{
+	
+	width: 60%;
+	height:auto;
+	margin: 1% 21%
+	
+}
+
+.addToCart:link, .addToCart:hover, .addToCart:active, .addToCart:visited{
+	color: white;
+	position: relative;
+	top: 100px;
+	left: 36%;
+	padding: 7px;
+	text-align: center;
+	background-color: #20A15C;
+	border-radius: 10px;
+	
+} 
+
+.nameProd{
+	text-align: center;
+	
+	color: #272D28;
+
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 800;
+	line-height: normal;
+}
+
+.descrProd{
+	position:relative;
+	color: #272D28;
+	top: 54px;
+	left: 5%;
+	width: 33%;
+
+	overflow-wrap: break-word;
+  
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+
+
+.priceProd{
+	float: right;
+	margin-right: 20px;
+	
+	color: #20A15C;
+
+	font-size: 40px;
+	font-style: italic;
+	font-weight: 800;
+	line-height: normal;
+}
+
+.titleCat{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 22%;
+	color: #FFF;
+	margin-left: -2%;
+	padding-left: 5%;
+	font-size: 300%;
+	font-style: italic;
+	font-weight: 800;
+	line-height: normal;
+	border-radius: 16px;
+	background: #20A15C;
+}
+
+.adminFunc:link, .adminFunc:active, .adminFunc:visited{
+	float: right;
+	padding: 12px;
+	color: #272D28;
+	margin-right: 1%;
+	font-style: italic;
+	font-weight: 800;
+	background-color: #A0FFC1;
+	border-radius: 25px;
+	border: 1px solid #272D28;
+}
+
+@media screen and (max-width: 1000px){
+    .carousel {
+        height: 300px;
+    }
+    
+    .product-section{
+    	overflow-x: hidden;
+    	display: flex;
+    	flex-direction:column;
+    	justify-content: center;
+    	width: 400px;
+    }
+    
+    .product{
+    	
+    	width: 300px;
+    	height: 350px;
+    }
+    .priceProd{
+    	font-size: 20px;
+    	margin-right: 64px;
+    	
+    }
+    
+    .titleCat{
+    	width: 30%;
+    	font-size: 25px;
+    }
+    
+    .descrProd{
+    	display: none;
+    }
+    
+    .addToCart:link, .addToCart:hover, .addToCart:active, .addToCart:visited{
+	color: white;
+	position: relative;
+	top: 40px;
+	left: 25%;
+	padding: 7px;
+	text-align: center;
+	background-color: #20A15C;
+	border-radius: 10px;
+	
+} 
+    .adminFunc{
+    	font-size: 12px;
+    	margin-left: 10px;
+    }
+    
+}

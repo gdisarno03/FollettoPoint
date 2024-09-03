@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+
+.detailContainer{
+	width:100%;
+	
+	height: 1000px;
+	margin-top: 1%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly; 	
+}
+
+.imgProd{
+	width: 30%;
+	height: 40%;
+}
+
+.infoProd{
+	
+    width: 50%;
+}
+
+
+.title{
+	color: #272D28;
+	
+	text-align: left;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+
+.descr{
+	color: #272D28;
+	margin-top: 5%;
+	width: 43%;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.priceFull{
+	color: #20A15C;
+	text-align:right;
+	margin-right: 10%;
+	font-size: 120px;
+	font-style: italic;
+	font-weight: 800;
+	line-height: normal;
+}
+
+.priceDisc{
+	color: #272D28;
+	text-align:right;
+	margin-top: 5%;
+	margin-right: 5%;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+form{
+	position:relative;
+	top: 10%; 
+}
+
+
+select{
+	
+	border-radius: 25px;
+	background: #A0FFC1;
+	width:12%;
+	cursor: pointer;
+	font-size: 266%;
+	text-align: center;
+}
+
+button[type="submit"]{
+	cursor: pointer;
+	border-radius: 25px;
+	width: 100%;
+	background: #20A15C;
+	color: #FFF;
+	
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 800;
+	margin-top: 5%;
+}
+
+.miniCart{
+	width: 5%;
+	margin:auto;
+}
+
+.adminFunc:link, .adminFunc:active, .adminFunc:visited{
+	float: right;
+	padding: 12px;
+	color: #272D28;
+	margin-right: 5%;
+	font-style: italic;
+	font-weight: 800;
+	background-color: #A0FFC1;
+	border-radius: 25px;
+	border: 1px solid #272D28;
+}
+@media screen and (max-width: 600px){
+	.priceFull{
+		font-size: 75px;
+	}
+	
+	.detailContainer{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.miniCart{
+	display: none;}
+	
+	.adminFunc:link, .adminFunc:active, .adminFunc:visited{
+	
+	padding: 12px;
+	color: #272D28;
+	margin:auto;
+	font-style: italic;
+	font-weight: 800;
+	background-color: #A0FFC1;
+	border-radius: 25px;
+	border: 1px solid #272D28;
+	}
+	
+	.imgProd{
+		width: 80%; 
+		margin:auto;
+	}
+	
+	.infoProd{
+	width: 70%;
+	margin:auto;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	}
+	select{
+		width: 30%;
+	}
+}

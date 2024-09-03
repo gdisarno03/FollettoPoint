@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    
+}
+
+.Container{
+	background: #A0FFC1;
+	border-radius: 25px;
+	border: 1px solid #1E1E1E;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 70%;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: space-evenly:
+}
+
+
+
+.Container p, .Container h2{
+	color: black;
+	text-align: center;	
+	font-size: 34px;
+	
+}
+
+.Container a,.Container a:link,.Container a:visited,.Container a:active{
+	font-weight: bold;
+	color: black;
+	text-align: center;	
+	font-size: 34px;
+}
+
+.Container h2{
+	margin-bottom: 40px;
+	font-size: 40px;
+}
+
+.Container a:hover{
+	text-decoration: underline;
+}
+
+
+
